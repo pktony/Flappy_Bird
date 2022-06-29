@@ -21,6 +21,8 @@ public class FlappyBird : MonoBehaviour
         birdInputAction = new();                // new Bird()와 같음
         rigid = GetComponent<Rigidbody2D>();    //미리 캐싱
         //anim = GetComponent<Animator>();
+        rigid.gravityScale = 0f;
+
 
         menu = FindObjectOfType<InGame_Menu>();
         menu.onPlayButton = EnableInputs;
@@ -28,7 +30,7 @@ public class FlappyBird : MonoBehaviour
 
     private void OnEnable()
     {
-        birdInputAction.Player.Enable();                // 스크립트로 Input System 제어 시, 활성화/비활성화를 해줘야 함.
+        birdInputAction.Player.Disable();                // 스크립트로 Input System 제어 시, 활성화/비활성화를 해줘야 함.
         birdInputAction.Player.Fly.performed += OnFly;  // Fly 액션 발동 시 실행될 함수 등록
     }
 
@@ -64,6 +66,7 @@ public class FlappyBird : MonoBehaviour
     void Die()
     {
         birdInputAction.Player.Disable();
+        
         //anim.SetTrigger("Dead");
     }
 
@@ -90,7 +93,7 @@ public class FlappyBird : MonoBehaviour
         Vector2 dir = (contact.point - (Vector2)transform.position).normalized;
         Vector2 reflect = Vector2.Reflect(dir, contact.normal);
         rigid.velocity = reflect * reflectionPower;
-        rigid.AddTorque(30.0f);
+        rigid.AddTorque(15.0f);
 
         GameManager.Inst.IsGameOver = true;
         onGameover?.Invoke();

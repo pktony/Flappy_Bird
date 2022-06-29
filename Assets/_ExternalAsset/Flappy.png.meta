@@ -356,15 +356,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0
+      name: Big_0
       rect:
         serializedVersion: 2
         x: 496
         y: 434
         width: 12
         height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -524,15 +524,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 2
+      name: Big_2
       rect:
         serializedVersion: 2
         x: 292
         y: 334
         width: 12
         height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -545,15 +545,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 3
+      name: Big_3
       rect:
         serializedVersion: 2
         x: 306
         y: 334
         width: 12
         height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -566,15 +566,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 4
+      name: Big_4
       rect:
         serializedVersion: 2
         x: 320
         y: 334
         width: 12
         height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -587,15 +587,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 5
+      name: Big_5
       rect:
         serializedVersion: 2
         x: 334
         y: 334
         width: 12
         height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -608,15 +608,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 6
+      name: Big_6
       rect:
         serializedVersion: 2
         x: 292
         y: 310
         width: 12
         height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -629,15 +629,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 7
+      name: Big_7
       rect:
         serializedVersion: 2
         x: 306
         y: 310
         width: 12
         height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -650,15 +650,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8
+      name: Big_8
       rect:
         serializedVersion: 2
         x: 320
         y: 310
         width: 12
         height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -671,15 +671,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 9
+      name: Big_9
       rect:
         serializedVersion: 2
         x: 334
         y: 310
         width: 12
         height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1301,15 +1301,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 1
+      name: Big_1
       rect:
         serializedVersion: 2
         x: 136
         y: 39
         width: 8
         height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1607,23 +1607,21 @@ TextureImporter:
     nameFileIdTable:
       Flappy_80: 129895369
       Flappy_69: 875238497
-      3: 1150318118
+      Flappy_72: -507508158
       Tap2Start: 983572803
-      0: 790149650
       Bird3_2: -1207946450
       Flappy_16: -1811012473
       Flappy_73: 2090353204
       Flappy_22: -756636194
+      Big_7: 438249988
       Flappy_6: 2045176828
       Bird1_2: -1208796526
-      6: -1433517285
       Flappy_56: 2028647601
       Flappy_79: -42582530
       Flappy_59: -1082611048
       Flappy_23: 1756315160
       Pillar_Up: 1847812634
       Bird2_1: -1792349929
-      5: -797651237
       Flappy_21: 616303616
       Get_Ready: 225357502
       Flappy_9: 2080634029
@@ -1634,13 +1632,16 @@ TextureImporter:
       Background_Ground: 1945517246
       Flappy_15: 1902881671
       Flappy_70: -441687539
+      Big_9: 1383452491
+      Big_6: -1433517285
       Bird3_3: 1921614629
+      Big_3: 1150318118
       Flappy_47: 506410190
       Flappy_12: 393438056
       Flappy_7: -618068462
       Flappy_50: -195331573
-      Flappy_51: 379200135
       Bird3_1: -749670377
+      Flappy_51: 379200135
       PIllar_Down: -1260688546
       Flappy_29: 1656717746
       Flappy_31: 1464104544
@@ -1653,19 +1654,18 @@ TextureImporter:
       Flappy_78: -1354236299
       Background_1: -1652881905
       Flappy_32: 508131633
-      8: -90590105
       Flappy_5: 532729130
-      2: 1124617036
+      Big_5: -797651237
       Flappy_26: 508490379
-      4: 1324854194
       Background_0: 1360570881
       Flappy_18: -1481115224
-      9: 1383452491
       Flappy_10: 1025460574
       Bird1_1: -935682034
       Bird2_2: 656885688
       Flappy_8: -1664102628
       Flappy_20: 1028980419
+      Big_0: 790149650
+      Big_1: 1527590252
       Flappy_58: 1883005135
       Bird2_3: 1047262659
       Flappy_42: 1362797997
@@ -1673,10 +1673,9 @@ TextureImporter:
       Flappy_63: 508990627
       Flappy_4: 2034053475
       Flappy_68: -1783957940
-      1: 1527590252
       Gameover: -792729558
       Flappy_66: -1387608141
-      7: 438249988
+      Big_2: 1124617036
       Flappy_49: -1269930209
       Flappy_3: 1570515734
       Flappy_19: -14212045
@@ -1684,8 +1683,9 @@ TextureImporter:
       Button_Play: 1985307699
       Flappy_28: -1014198484
       Flappy_45: 1986772967
+      Big_4: 1324854194
       Title: 439301672
-      Flappy_72: -507508158
+      Big_8: -90590105
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

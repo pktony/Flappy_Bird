@@ -13,6 +13,9 @@ public class InGame_Menu : MonoBehaviour
     public GameObject UI_GetReady = null;
     public GameObject UI_Home = null;
     public GameObject UI_Restart = null;
+    public GameObject UI_Medal = null;
+
+    Ranking rank = null;
 
     public System.Action onPlayButton = null;
 
@@ -21,8 +24,14 @@ public class InGame_Menu : MonoBehaviour
         tap2Play = transform.Find("TaptoStart").gameObject;
 
         bird = FindObjectOfType<FlappyBird>();
+        rank = FindObjectOfType<Ranking>();
 
         bird.onGameover = ShowGameover;
+
+        Button restartButton = transform.Find("Restart").GetComponent<Button>();
+        Button homeButton = transform.Find("Home").GetComponent<Button>();
+        restartButton.onClick.AddListener(OnRestart);
+        homeButton.onClick.AddListener(OnHome);
     }
 
     void ShowGameover()
@@ -30,6 +39,11 @@ public class InGame_Menu : MonoBehaviour
         UI_Gameover.SetActive(true);
         UI_Home.SetActive(true);
         UI_Restart.SetActive(true);
+        UI_Medal.SetActive(true);
+
+        rank.gameObject.SetActive(true);
+        rank.Open(GameManager.Inst.rank);
+
     }
 
     public void OnPlay()

@@ -87,15 +87,17 @@ public class FlappyBird : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        Die();
+        if (!GameManager.Inst.IsGameOver)
+        {
+            Die();
+            GameManager.Inst.IsGameOver = true;
+            onGameover?.Invoke();
+        }   
 
         ContactPoint2D contact = collision.GetContact(0);
         Vector2 dir = (contact.point - (Vector2)transform.position).normalized;
         Vector2 reflect = Vector2.Reflect(dir, contact.normal);
         rigid.velocity = reflect * reflectionPower;
         rigid.AddTorque(15.0f);
-
-        GameManager.Inst.IsGameOver = true;
-        onGameover?.Invoke();
     }
 }
